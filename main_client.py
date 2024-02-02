@@ -6,4 +6,4 @@ LTA_ACCOUNT_KEY = lta_env.get("LTA_ACCOUNT_KEY")
 
 
 bus_stop = BusClient(LTA_ACCOUNT_KEY)
-print(bus_stop.get_arrivals("47491"))
+print(bus_stop.get_arrivals("46009"))
